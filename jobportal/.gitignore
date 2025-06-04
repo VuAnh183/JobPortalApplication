@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Spring config
+application.properties
+application-*.properties
+
 ### STS ###
 .apt_generated
 .classpath
@@ -29,5 +33,25 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# IntelliJ / VSCode
+.idea/
+*.iml
 .vscode/
+
+# Environment files
+.env
+.env.*
+
+# SSH keys and secrets
+*.pem
+*.key
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+*.tfvars
+
+# Logs
+*.log
