@@ -1,0 +1,50 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Java Spring / Maven
+jobportal/target/
+jobportal/*.log
+jobportal/*.class
+jobportal/.mvn/
+jobportal/.settings/
+jobportal/.idea/
+jobportal/*.iml
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+
+# Secrets / config files
+jobportal/src/main/resources/application.properties
+*.pem
+*.key
+
+# Terraform
+deployemnt/.terraform/
+deployemnt/*.tfstate
+deployemnt/*.tfstate.backup
+deployemnt/.terraform.lock.hcl
+deployemnt/crash.log
+
+# Logs
+*.log
