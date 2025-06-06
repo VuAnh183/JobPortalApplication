@@ -44,7 +44,6 @@ deployemnt/.terraform/
 deployemnt/*.tfstate
 deployemnt/*.tfstate.backup
 deployemnt/.terraform.lock.hcl
-deployemnt/crash.log
 
 # Logs
 *.log
